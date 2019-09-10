@@ -1,0 +1,22 @@
+//实现对于输入的iNum,输出 [0，iNum) 奇偶数的个数。
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner cin=new Scanner(System.in);
+        System.out.println("请输入数字大小：");
+        int n=cin.nextInt();
+        int oddSum=0,evenSum=0;
+        for(int i=0;i<n;i++){
+            if(i%2==0){
+                ++oddSum;
+            }
+            else {
+                ++evenSum;
+            }
+        }
+        System.out.println("奇数的个数为："+evenSum);
+        System.out.println("偶数的个数为："+oddSum);
+    }
+}
