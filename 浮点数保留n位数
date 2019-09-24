@@ -1,0 +1,11 @@
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        double a=0.371238123;
+        //保留两位数
+        System.out.println(String.format("%.2f",a));
+    }
+}
