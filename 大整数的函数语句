@@ -1,0 +1,23 @@
+import java.math.BigDecimal;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        
+        //BigDecimal为高精度小数，与大整数的语法相似
+        BigInteger a=cin.nextBigInteger();
+        BigInteger b=cin.nextBigInteger();
+
+        //大整数的赋值
+        a=BigInteger.valueOf(1000);
+
+        //大整数的加减乘除
+        a=a.add(b);
+        a=a.subtract(b);
+        a=a.multiply(b);
+        a=a.divide(b);
+        
+    }
+}
