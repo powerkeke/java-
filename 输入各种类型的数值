@@ -1,0 +1,13 @@
+import java.util.Scanner; // Scanner is in the java.util package
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int intValue = input.nextInt();
+
+        long longValue = input.nextLong();
+
+        float floatValue = input.nextFloat();
+    }
+}
