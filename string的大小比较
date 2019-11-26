@@ -1,0 +1,18 @@
+import java.util.Scanner; // Scanner is in the java.util package
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner cin = new Scanner(System.in);
+        System.out.println("Enter the first city:");
+        String s1=cin.nextLine();
+        System.out.println("Enter the second city:");
+        String s2=cin.nextLine();
+        if(s1.compareTo(s2)<0){
+            System.out.println(s1+"<"+s2);
+        }
+        else {
+            System.out.println(s1+">"+s2);
+        }
+    }
+}
